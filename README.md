@@ -1,4 +1,4 @@
-# DataLemur-SQL-exercises
+# SQL-exercises-from-DataLemur
 
 Solutions to DataLemur SQL exercises organized into Easy, Medium and Hard.
 
