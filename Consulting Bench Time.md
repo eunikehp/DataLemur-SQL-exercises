@@ -10,11 +10,16 @@ Write a query to pull each employee ID and their total bench time in days during
 
 Assumptions:
 
--All listed employees are current employees who were hired before 2021.
--The engagements in the consulting_engagements table are complete for the year 2022.
+- All listed employees are current employees who were hired before 2021.
+- The engagements in the consulting_engagements table are complete for the year 2022.
 
 staffing Table:
 
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/104567399/188855663-708c2bb0-bc21-4e05-a782-dbb7611f58a6.png">
+
+consulting_engagements Table:
+
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/104567399/188855820-8da392f1-ff58-4f48-ab70-df095ca22c47.png">
 
 
 ## Solution
@@ -34,3 +39,7 @@ SELECT employee_id, 365-SUM(workdays)- SUM(last_day) AS bench_days
 FROM workdays
 GROUP BY employee_id;
 ```
+
+
+<img width="391" alt="image" src="https://user-images.githubusercontent.com/104567399/188855202-e30c839f-f0af-41d9-b596-2c8ff89b1973.png">
+
