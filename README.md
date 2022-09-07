@@ -6,3 +6,6 @@ This platform has various SQL exercises organized into Easy, Medium and Hard.
 I practice my skill in SQL using this platform and here I share my solutions for some given questions. 
 
 Link: https://datalemur.com
+
+**1. Medium Level**
+- [Consulting Bench Time ](https://github.com/eunikehp/DataLemur-SQL-exercises/blob/main/Consulting%20Bench%20Time.md)
